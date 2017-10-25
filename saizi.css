@@ -1,0 +1,88 @@
+@import url('base.css');
+.box{
+	width: 302px;
+	height: 302px;
+	border: 1px solid #000;
+	border-radius: 20%;
+	padding : 20px;
+	display: flex;
+	justify-content: space-between;
+	float: left;
+
+}
+.s1,.s2,.s3,.s4{
+	width: 50px;
+	height: 50px;
+	background: #000;
+	border-radius: 50%;
+    
+}
+.box1{
+	width: 302px;
+	height: 302px;
+	border: 1px solid #000;
+	border-radius: 20%;
+	padding : 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	float: left;
+}
+.box2{
+	width: 302px;
+	height: 302px;
+	border: 1px solid #000;
+	border-radius: 20%;
+	padding : 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between; 
+	align-items: center;
+	float: left;
+}
+.box3{
+	width: 302px;
+	height: 302px;
+	border: 1px solid #000;
+	border-radius: 20%;
+	padding : 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between; 
+	align-items: flex-end;
+	float: left;
+}
+.box4{
+	width: 302px;
+	height: 302px;
+	border: 1px solid #000;
+	border-radius: 20%;
+	padding : 20px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content:space-between;
+
+}
+.column{
+    display: flex;
+
+    flex-basis:100%;
+    justify-content:space-between;
+   /*  justify-content:space-between; */
+}
+/* .s3{
+	width: 50px;
+	height: 50px;
+	background: #000;
+	border-radius: 50%;
+	align-self: flex-start;
+	justify-content: center;
+}
+.s4{
+	width: 50px;
+	height: 50px;
+	background: #000;
+	border-radius: 50%;
+	align-items: flex-end;
+	justify-content: center;
+} */
